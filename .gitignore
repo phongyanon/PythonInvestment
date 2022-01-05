@@ -1,1 +1,4 @@
 *.env
+ImportBinance/*.csv
+MyStrategy/*.csv
+.ipynb_checkpoints
