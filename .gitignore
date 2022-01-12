@@ -2,3 +2,4 @@
 ImportBinance/*.csv
 MyStrategy/*.csv
 .ipynb_checkpoints
+service_account.json

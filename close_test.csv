@@ -1,0 +1,4 @@
+Symbol;Position;Type;Lots;Open time;Open price;Close time;Close price;Profit;Net profit;Rollover;Comment
+EURUSD;511460226;Sell Limit;0.04;03.01.2022 22:07:46;1.13052;03.01.2022 22:27:09;1.12994;2.32;2.32;0;[T/P]
+EURUSD;511044910;Buy Limit;0.04;03.01.2022 13:59:28;1.13441;03.01.2022 17:03:35;1.13572;5.24;5.24;0;[S/L]
+
