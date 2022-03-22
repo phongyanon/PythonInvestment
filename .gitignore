@@ -1,5 +1,7 @@
 *.env
 ImportBinance/*.csv
+ImportYahoo/*.csv
 MyStrategy/*.csv
+YahooForexData/
 .ipynb_checkpoints
 service_account.json
