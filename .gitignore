@@ -5,3 +5,4 @@ MyStrategy/*.csv
 YahooForexData/
 .ipynb_checkpoints
 service_account.json
+__pycache__
