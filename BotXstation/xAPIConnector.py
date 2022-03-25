@@ -271,3 +271,31 @@ def baseCommand(commandName, arguments=None):
 
 def loginCommand(userId, password, appName=''):
     return baseCommand('login', dict(userId=userId, password=password, appName=appName))
+
+def newPendingOrderCommand(symbol, action, price, tp, sl, volume):
+    command = None
+    if action == 'buy':
+        command = 0
+    elif action == 'sell':
+        command = 1
+    elif action == 'buy limit':
+        command = 2
+    elif action == 'sell limit':
+        command = 3
+    elif action == 'buy stop':
+        command = 4
+    elif action == 'sell stop':
+        command = 5
+    return baseCommand('tradeTransaction', dict(tradeTransInfo=dict(
+        cmd=command, customComment="", expiration=0, order=0, price=price, sl=sl, tp=tp, symbol=symbol, type=0, volume=volume
+    )))
+
+def stopOrderCommand(orderId, symbol, action, price, volume):
+    command = None
+    if action == 'buy':
+        command = 0
+    elif action == 'sell':
+        command = 1
+    return baseCommand('tradeTransaction', dict(tradeTransInfo=dict(
+        cmd=command, customComment="", expiration=0, order=orderId, price=price, symbol=symbol, tp=0, sl=0, type=2, volume=volume
+    )))
