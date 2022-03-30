@@ -299,3 +299,6 @@ def stopOrderCommand(orderId, symbol, action, price, volume):
     return baseCommand('tradeTransaction', dict(tradeTransInfo=dict(
         cmd=command, customComment="", expiration=0, order=orderId, price=price, symbol=symbol, tp=0, sl=0, type=2, volume=volume
     )))
+
+def pingCommand():
+    return baseCommand('ping')
