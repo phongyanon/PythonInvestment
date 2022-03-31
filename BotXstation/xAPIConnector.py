@@ -302,3 +302,6 @@ def stopOrderCommand(orderId, symbol, action, price, volume):
 
 def pingCommand():
     return baseCommand('ping')
+
+def getTickPricesCommand(symbol, target_time):
+    return baseCommand('getTickPrices', dict(level= 0, symbols= [symbol], timestamp=target_time))
