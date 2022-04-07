@@ -3,6 +3,8 @@ ImportBinance/*.csv
 ImportYahoo/*.csv
 MyStrategy/*.csv
 MutualFund/*.csv
+SetStock/*.csv
+SetStock/*.log
 YahooForexData/
 .ipynb_checkpoints
 service_account.json
