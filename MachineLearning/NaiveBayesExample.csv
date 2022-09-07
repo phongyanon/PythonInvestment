@@ -1,0 +1,12 @@
+department,status,age,salary,count
+sales,senior,31-35,46-50k,30
+sales,junior,26-30,26-30k,40
+sales,junior,31-35,31-35k,40
+systems,junior,21-25,46-50k,20
+systems,senior,31-35,66-70k,5
+systems,junior,26-30,46-50k,3
+systems,senior,41-45,66-70k,3
+marketing,senior,36-40,46-50k,10
+marketing,junior,31-35,41-45k,4
+secretary,senior,46-50,36-40k,4
+secretary,junior,26-30,26-30k,6
